@@ -1,0 +1,27 @@
+{
+  "name": "dicecloud-foundry-server",
+  "version": "1.0.0",
+  "description": "Proxy for calling dicecloud",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruthersby/dicecloud-foundry-server.git"
+  },
+  "keywords": [
+    "foundryvtt",
+    "dicecloud"
+  ],
+  "author": "Tim Ruthersby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruthersby/dicecloud-foundry-server/issues"
+  },
+  "homepage": "https://github.com/ruthersby/dicecloud-foundry-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
